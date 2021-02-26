@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestGUI
+</name>
+</assembly>
+<members>
+<member name="T:TestGUI.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TestGUI.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TestGUI.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet.testDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet.testRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet.testRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSetTableAdapters.testTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TestGUI.PrototypeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TestGUI.PrototypeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TestGUI.PrototypeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.UpdateAll(TestGUI.PrototypeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2._4_Caught_FishesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2.testDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2._4_Caught_FishesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2.testRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2._4_Caught_FishesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2.testRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2TableAdapters._4_Caught_FishesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2TableAdapters.testTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(TestGUI.PrototypeDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(TestGUI.PrototypeDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(TestGUI.PrototypeDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.UpdateAll(TestGUI.PrototypeDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TestGUI.PrototypeDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
